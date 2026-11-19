@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-labelledby="title">
+  <title id="title">Field Notes</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#170b20"/><stop offset=".55" stop-color="#351443"/><stop offset="1" stop-color="#5b2167"/></linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#fff" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/><rect width="900" height="675" fill="url(#grid)"/>
+  <circle cx="752" cy="98" r="175" fill="#d946ef" fill-opacity=".1"/><path d="M680 70l40 70-58 44 86 32-52 72" fill="none" stroke="#f0abfc" stroke-opacity=".3" stroke-width="3"/>
+  <text x="450" y="296" text-anchor="middle" fill="#fdf4ff" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="650" letter-spacing="5">FIELD NOTES</text>
+  <text x="450" y="388" text-anchor="middle" fill="#f5d0fe" font-family="Arial, sans-serif" font-size="30" letter-spacing="9">实战记录</text>
+  <rect x="375" y="436" width="150" height="6" rx="3" fill="#d946ef"/>
+</svg>

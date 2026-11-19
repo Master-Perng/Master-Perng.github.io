@@ -70,6 +70,18 @@ content/
 
 `categories = ["info"]` 和 `categories = ["archives"]` 的辅助页面不会出现在首页文章列表中。
 
+## 旧文章迁移
+
+11 篇旧文章已从原 Hexo/Butterfly 博客迁移到 Hugo：
+
+- 正文统一转换为 Hugo Front Matter
+- 日期、分类和标签已重新整理
+- 文章截图已本地化到 `static/images/legacy/`
+- 分类封面位于 `static/images/covers/`
+- 旧图片域名已全部替换，不依赖 `image.perng.cn`
+
+原 `Master-Perng/Blog` 仓库没有被删除或修改。
+
 ## 修改站点配置
 
 主要配置位于 `hugo.toml`：
