@@ -1,0 +1,7 @@
+{{- $searchIndex := slice -}}
+{{- range .Site.RegularPages -}}
+{{- if not (intersect .Params.categories site.Params.ignore.categories) -}}
+{{- $searchIndex = $searchIndex | append (dict "title" .Title "tags" .Params.tags "categories" .Params.categories "contents" .Plain "permalink" .Permalink) -}}
+{{- end -}}
+{{- end -}}
+{{- $searchIndex | jsonify -}}

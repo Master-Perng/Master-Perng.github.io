@@ -1,0 +1,12 @@
+<footer class="flex flex-col sm:flex-row items-center justify-center gap-2 text-lg mt-8 py-8 border-t border-gray-100/10">
+    <div class="text-center text-gray-500/80">
+        {{ if .Site.Params.license.copyright }}
+        {{ .Site.Params.license.copyright | safeHTML }}
+        {{ else }}
+        © 2026 Perng. All Rights Reserved.
+        {{ end }}
+    </div>
+    <span class="hidden sm:inline text-gray-700">·</span>
+    <a href="https://github.com/Master-Perng" target="_blank" rel="noopener noreferrer"
+        class="text-gray-500 hover:text-gray-200 transition-colors">GitHub</a>
+</footer>

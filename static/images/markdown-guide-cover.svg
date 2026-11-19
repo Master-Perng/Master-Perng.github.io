@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Markdown guide cover</title>
+  <desc id="desc">A dark editorial cover with the word MARKDOWN and a red accent.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111214"/>
+      <stop offset="0.55" stop-color="#1d1d21"/>
+      <stop offset="1" stop-color="#301b1c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.12" r="0.72">
+      <stop offset="0" stop-color="#ef4444" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="lines" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <rect width="900" height="675" fill="url(#glow)"/>
+  <rect width="900" height="675" fill="url(#lines)"/>
+  <circle cx="760" cy="105" r="170" fill="none" stroke="#ef4444" stroke-opacity="0.18" stroke-width="2"/>
+  <circle cx="760" cy="105" r="112" fill="none" stroke="#f5f5f4" stroke-opacity="0.08" stroke-width="2"/>
+  <text x="450" y="318" text-anchor="middle" fill="#f5f5f4" font-family="Arial, Helvetica, sans-serif" font-size="108" font-weight="650" letter-spacing="4">MARKDOWN</text>
+  <text x="450" y="386" text-anchor="middle" fill="#a8a29e" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="6">WRITING REFERENCE</text>
+  <rect x="365" y="438" width="170" height="6" rx="3" fill="#ef4444"/>
+</svg>

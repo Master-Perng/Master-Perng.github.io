@@ -1,28 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
   <title id="title">Hello cover</title>
-  <desc id="desc">An abstract blue and violet background with the word HELLO.</desc>
+  <desc id="desc">An abstract blue and violet cover with the word HELLO.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#10233f"/>
-      <stop offset="0.48" stop-color="#2454a6"/>
+      <stop offset="0.5" stop-color="#2454a6"/>
       <stop offset="1" stop-color="#8a5cf6"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.2" cy="0.1" r="0.9">
-      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0.75"/>
-      <stop offset="0.48" stop-color="#38bdf8" stop-opacity="0.15"/>
+    <radialGradient id="glow" cx="0.16" cy="0.08" r="0.85">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0.72"/>
+      <stop offset="0.5" stop-color="#38bdf8" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
-      <path d="M 52 0 L 0 0 0 52" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#ffffff" stroke-opacity="0.065"/>
     </pattern>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect width="1200" height="630" fill="url(#glow)"/>
-  <rect width="1200" height="630" fill="url(#grid)"/>
-  <circle cx="1010" cy="105" r="190" fill="#ffffff" fill-opacity="0.06"/>
-  <circle cx="1010" cy="105" r="120" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2"/>
-  <path d="M-40 505 C 220 350, 425 720, 730 505 S 1130 390, 1260 465" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="3"/>
-  <text x="92" y="338" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="184" font-weight="700" letter-spacing="16">HELLO</text>
-  <text x="98" y="412" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="35" letter-spacing="5">MY DIGITAL GARDEN</text>
-  <rect x="98" y="458" width="190" height="7" rx="3.5" fill="#7dd3fc"/>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <rect width="900" height="675" fill="url(#glow)"/>
+  <rect width="900" height="675" fill="url(#grid)"/>
+  <circle cx="780" cy="100" r="175" fill="#ffffff" fill-opacity="0.055"/>
+  <circle cx="780" cy="100" r="112" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2"/>
+  <path d="M-30 535C150 410 300 710 520 515S820 405 930 478" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3"/>
+  <text x="450" y="318" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="700" letter-spacing="13">HELLO</text>
+  <text x="450" y="390" text-anchor="middle" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="27" letter-spacing="5">MY DIGITAL GARDEN</text>
+  <rect x="365" y="440" width="170" height="6" rx="3" fill="#7dd3fc"/>
 </svg>

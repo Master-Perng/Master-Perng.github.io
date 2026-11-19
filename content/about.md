@@ -2,6 +2,7 @@
 title: "关于"
 date: 2026-11-19T09:00:00+08:00
 draft: false
+categories: ["info"]
 hidemeta: true
 ShowBreadCrumbs: false
 ShowReadingTime: false
@@ -20,4 +21,4 @@ comments: false
 
 ## 关于本站
 
-本站使用 [Hugo](https://gohugo.io/) 构建，主题是 [PaperMod](https://github.com/adityatelange/hugo-PaperMod)，通过 GitHub Pages 自动部署。
+本站使用 [Hugo](https://gohugo.io/) 构建，主题是 [Niello](https://github.com/guangmean/Niello)，通过 GitHub Pages 自动部署。

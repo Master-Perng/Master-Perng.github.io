@@ -9,6 +9,8 @@ ShowToc: true
 TocOpen: false
 ---
 
+![深色背景上的 MARKDOWN 字样](/images/markdown-guide-cover.svg)
+
 ## 标题
 
 使用一个到六个 `#` 表示不同层级的标题：
