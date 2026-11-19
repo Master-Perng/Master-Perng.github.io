@@ -1,0 +1,106 @@
+baseURL = "https://example.com/"
+locale = "zh-CN"
+defaultContentLanguage = "zh-cn"
+title = "Perng’s Blog"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableEmoji = true
+hasCJKLanguage = true
+summaryLength = 120
+mainSections = ["posts"]
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    noClasses = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = true
+
+[params]
+  description = "Perng 的个人博客"
+  keywords = ["博客", "Hugo", "PaperMod", "技术", "随笔"]
+  author = "Perng"
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  UseHugoToc = true
+  TocOpen = false
+  hideFooter = false
+  disableScrollToTop = false
+
+  [params.assets]
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+
+  [params.homeInfoParams]
+    Title = "你好，我是 Perng"
+    Content = "欢迎来到我的数字花园。\n\n这里记录学习笔记、技术实践和生活随笔。你可以在「文章」中按时间阅读，也可以使用右上角的「搜索」快速查找内容。"
+    AlignSocialIconsTo = "center"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Master-Perng"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 50

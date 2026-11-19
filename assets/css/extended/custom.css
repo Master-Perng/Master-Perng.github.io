@@ -1,0 +1,110 @@
+:root {
+  --content-gap: 28px;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.home-info {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 34px 30px;
+  background:
+    radial-gradient(circle at top right, rgba(73, 132, 255, 0.12), transparent 42%),
+    var(--entry);
+}
+
+.post-entry {
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease;
+}
+
+.post-entry:hover {
+  border-color: var(--secondary);
+  transform: translateY(-2px);
+}
+
+.post-title {
+  letter-spacing: -0.025em;
+}
+
+.post-content {
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.post-content p {
+  margin-bottom: 1.15em;
+}
+
+.post-content h2 {
+  margin-top: 2em;
+}
+
+.post-content h3 {
+  margin-top: 1.7em;
+}
+
+.post-content blockquote {
+  border-inline-start: 4px solid var(--primary);
+  border-radius: 0 10px 10px 0;
+  background: var(--code-bg);
+}
+
+.post-content table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post-content pre {
+  border-radius: 12px;
+}
+
+.footer {
+  letter-spacing: 0;
+}
+
+@media (max-width: 700px) {
+  .header-nav {
+    flex-wrap: nowrap;
+    column-gap: 8px;
+  }
+
+  .logo {
+    flex-shrink: 0;
+  }
+
+  .logo a {
+    font-size: 20px;
+  }
+
+  .logo-switches {
+    gap: 0.2rem;
+  }
+
+  .menu {
+    flex: 1;
+    min-width: 0;
+    justify-content: flex-end;
+    column-gap: 10px;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+  .home-info {
+    padding: 24px 20px;
+    border-radius: 12px;
+  }
+
+  .post-content {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
